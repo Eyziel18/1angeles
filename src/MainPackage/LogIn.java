@@ -119,6 +119,8 @@ c.setVisible(true);
             ResultSet r = s.executeQuery();
             if(r.next()){
                 MainFrame m = new MainFrame();
+                
+                this.setVisible(false);
                 m.setVisible(true);
             }else{
                 JOptionPane.showMessageDialog(rootPane, "Incorrect User or Password","ERROR",JOptionPane.ERROR_MESSAGE);

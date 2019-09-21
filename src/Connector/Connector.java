@@ -10,5 +10,5 @@ package Connector;
  * @author user name
  */
 public class Connector {
-    public static String url = "jdbc:mysql://locahost/angelesdb?user=root&password=?";
+    public static String url = "jdbc:mysql://localhost/angelesdb?user=root&password=";
 }
